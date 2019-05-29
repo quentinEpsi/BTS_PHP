@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    padding: 154px 0 100px;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+@media (min-width: 992px) {
+    header {
+        padding: 156px 0 100px;
+    }
+}
+
+section {
+    padding: 50px ;
+}
+
+/* LANDING PAGE */
+.landing-icon
+{
+    font-size: 3em;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+/* FORMULAIRES CONNEXION/INSCRIPTION */
+
+.form_log{
+    margin: 50px auto;
+}
+
+
+/* NAVBAR */
+
+.icon-user-navbar{
+    font-size: 1.5em;
+    color: aliceblue;
+}
+.icon-user-navbar:hover{
+    color: #17a2b8;
+}
+
+
+.form_index{
+    margin: 50px auto;
+}
+
+/* FORMULAIRE PAGE COMTPTE USER*/
+
+.input-solde{
+    width: 100px;
+}
